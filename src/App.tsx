@@ -8,14 +8,8 @@ const Pstyle = css`
   color: black;
 `;
 
-const App: React.FC = () => {
-  return (
-    <div>
-      <p css={Pstyle}>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-    </div>
-  );
+const App: React.FC = ({ children }) => {
+  return <>{children}</>;
 };
 
 export default App;

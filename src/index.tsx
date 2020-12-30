@@ -5,11 +5,14 @@ import { client } from 'apollo';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Routes from 'Routes';
 
 ReactDOM.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
-      <App />
+      <App>
+        <Routes />
+      </App>
     </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root'),
