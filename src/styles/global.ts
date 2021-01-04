@@ -15,7 +15,7 @@ export default css`
     min-width: 320px;
     min-height: 100%;
     font-size: 1.6rem;
-    font-family: 'Exo 2', 'Spoqa Han Sans', sans-serif;
+    font-family: sans-serif;
     line-height: 1.5;
   }
   input[type='radio'],
