@@ -1,7 +1,12 @@
 import React from 'react';
+import tw from 'twin.macro';
+
+const headerStyle = tw`
+h-20 bg-green-100
+`;
 
 const Header: React.FC = () => {
-  return <header></header>;
+  return <header css={headerStyle}></header>;
 };
 
 export default Header;

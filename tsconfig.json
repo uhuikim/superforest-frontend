@@ -20,5 +20,5 @@
     "baseUrl": "src",
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+  "include": ["src", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "twin.d.ts"]
 }
